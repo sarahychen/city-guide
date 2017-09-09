@@ -1,0 +1,281 @@
+/**{
+  border: 1px solid red;
+}*/
+
+body {
+  font-family: "Lato", Georgia, serif;
+  margin: 5px;
+}
+p {
+  line-height: 1.4em;
+  text-indent: 10px;
+}
+/*h4.sub-heading {
+  line-height: .2em;
+}*/
+table {
+  border: 1px solid #666666;
+}
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 2px;
+  line-height: 1.2em;
+  text-align: center;
+  border: 1px solid black;
+}
+th {
+  border-bottom: 2px solid #666666;
+  background-color: rgba(34, 108, 224, 0.5);
+}
+iframe{
+  padding: 5px;
+  border: 1px solid black;
+  /*width: 40%;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+table{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*width: 50%;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+ol.list-lvl1 {
+  list-style-type: upper-roman;
+}
+ol.list-lvl2 {
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+}
+ol.list-lvl3 {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+a.title-link {
+  display: block;
+}
+span.title-bold {
+  font-weight: bold;
+  font-size: 17px;
+  display: block;
+  /*color: #226CE0;*/
+}
+.section-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sub-heading {
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  color: #226CE0;
+}
+a:visited {
+  color: #226CE0;
+}
+a:hover{
+  color: #534B62;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+/*input {
+  display: block;
+}*/
+input.text-input:hover{
+  font-style: italic;;
+  /*color: rgba(147, 213, 222, 0.75);*/
+  color: black;
+}
+input:focus{
+  background-color: rgba(34, 108, 224, 0.25);
+}
+input.text-input {
+  border-radius: 10px;
+}
+a.inline-link {
+  display: inline-block;
+  /*text-align: right;*/
+}
+#image-header img{
+  padding: 0px;
+  border: none;
+  display: inline;
+  box-shadow: none;
+  /*margin: auto;*/
+  /*width: 100%;*/
+}
+#image-header {
+  padding: 5px;
+  border: 1px solid black;
+  border-top: none;
+  overflow: auto;
+  width: 100%;
+}
+#image-header-imgs{
+  margin: auto;
+  width: 100%;
+}
+img {
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #777777;
+  text-align: center;
+  display: block;
+  /*border-radius: 5px, 10px, 5px, 10px;*/
+}
+.col-2 {
+  width: 49%;
+  float: left;
+}
+.col-1 {
+  float: clear;
+  margin-left: auto;
+  margin-right: auto;
+  overflow:auto;
+  width: 98.25%;
+  padding: 5px;
+}
+#title-header, #page-header, #image-header {
+  text-align: center;
+}
+#title-header { /*the fancy header: Sarah's travel blog presents...*/
+  /*background-color: rgba(147, 213, 222, 0.75);*/
+  text-shadow:1px 1px 3px #666666;
+  /*margin: -20px; /*to fix the weird white line gap -- update u can fix it if you get
+  rid of <hr> */
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px dashed #536e83;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /*border-radius: 5px, 10px, 5px, 10px;*/
+}
+#fixed-header {
+  width: 98.25%;
+  position: fixed;
+  /*z-index: 10;*/
+  background-color: white;
+  top: -5px; /*still don't really get why I have to have a negative offset if I
+  added a top-margin in the next element */
+  /*margin-left: -10px;*/
+  border: 1px solid black;
+  padding: 5px;
+  /*margin: 10px;*/
+  /*overflow: auto;*/
+  /*width: 100%*/
+}
+#page-header { /*New York City*/
+  /*padding-top: 5px;*/
+  font-variant: small-caps;
+  /*background-color: rgba(83, 75, 98, 0.5);*/
+  background-color: rgba(147, 213, 222, 0.75);
+  color: white;
+  text-shadow: 1px 1px 3px #536e83;
+  border: 1px solid black;
+  /*margin: 100px;*/
+  margin-top: 125px;
+}
+#intro {
+  float: clear;
+}
+#intro, #sights {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#museums {
+  /*margin: auto;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+#met-museum {
+  padding: 10px;
+  padding-top: 0px;
+  border: 3px double #536e83;
+  height: 300px;
+  /*width: 45%;*/
+  overflow: scroll;
+  float: left;
+  margin-right: 10px;
+  /*padding-bottom: 20px;*/
+}
+#met-museum img{
+  /*width: 50%;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+#moma-museum {
+  /*display: inline-block;*/
+  padding: 10px;
+  padding-top: 0px;
+  border: 3px double #536e83;
+  height: 300px;
+  /*width: 45%;*/
+  overflow: scroll;
+}
+#moma-museum img, #highline img {
+  margin-left: auto;
+  margin-right: auto;
+}
+#outdoors {
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+#central-park, #highline {
+  padding: 10px;
+  padding-top: 0px;
+  border: 3px double #536e83;
+  height: 300px;
+  width: 45%;
+  overflow: scroll;
+}
+#central-park {
+  float: left;
+  margin-right: 10px;
+}
+#central-park iframe{
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+  frameborder: 0px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #777777;
+}
+#submit-button {
+  /*border-bottom: 2px solid grey;*/
+  /*background-color: currentColor;*/
+  text-shadow: 2px 2px red;
+}
+#newsletter-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+}
+#contact-info {
+  border-top: 1px solid black;
+}
+#nav-links {
+  float: right;
+}
+/*#highline {
+  display: inline-block;
+}*/
